@@ -17,7 +17,6 @@ fi
 
 grep -r "$searchstr" "$filesdir"
 
-
 number_of_lines=$(grep -r "$searchstr" "$filesdir" | wc -l)
 number_of_files=$(find "$filesdir" -type f | wc -l)
 
