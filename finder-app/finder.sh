@@ -23,6 +23,7 @@ number_of_files=$(find "$filesdir" -type f | wc -l)
 
 
 # Print the result
-echo "The number of files = $number_of_files and the number of matching lines = $number_of_lines"
+echo "The number of files are $number_of_files and the number of matching lines are $number_of_lines"
+
 
 exit 0
